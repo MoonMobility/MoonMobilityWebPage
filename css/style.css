@@ -1,0 +1,79 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 67px; /* Margin bottom by footer height */
+}
+
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background:
+    linear-gradient(rgba(52,58,64,0.64), rgba(0,0,0,0.55)),
+    url("../img/bg.jpg")  center center no-repeat;
+  height: 110%;
+  background-size:cover;
+
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+
+  margin-left: -15px;
+  margin-right:  -15px;
+  margin-top: -15px;
+  margin-bottom: -15px;
+
+  overflow: hidden;
+}
+
+#logo img {
+    margin:0 auto !important;
+    padding-top:20px;
+}
+
+#intro p {
+    color: white;
+    text-align:center;
+    font-family: 'Exo 2', sans-serif;
+    font-size:1.8em;
+}
+
+#counter .countdown {
+    text-align:center;
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size:3em;
+    margin:-15px 0 0;
+}
+
+#signup {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#signup .btn {
+    background-color: rgba(86,204,242,0.85);
+    color: white;
+}
+#signup .btn:hover {
+    background-color:rgba(37,165,82,1);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 67px; /* Set the fixed height of the footer here */
+}
+
+/* .grecaptcha-badge {
+   display: none;
+} */
