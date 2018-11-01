@@ -11,7 +11,6 @@ description: > # "Write an awesome description for your new site here.
   head meta (for Google search results) and in your feed.xml site
   description.
 copyright: 'Copyright &copy; 2018 ООО Мун Мобилити. All Rights Reserved.'
-credits: 'Credits: <a href="http://moonmobi.ru/">2018 ООО Мун Мобилити</a>.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
