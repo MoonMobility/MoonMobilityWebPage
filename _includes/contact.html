@@ -2,19 +2,11 @@
 	<div class="banner">
 		<div class="container">
 
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-lg-6">
 					<h2>Keep in Touch:</h2>
 				</div>
-				{% for contact in site.contact %}
 				<div class="col-lg-6">
-					<h4>{{ contact.title }}</h4>
-				</div>
-				<div class="col-lg-6">
-					<h6>{{ contact.content }}</h6>
-				</div>
-				{% endfor %}
-				<!-- <div class="col-lg-6">
 					<ul class="list-inline banner-social-buttons">
 						{% for social in site.social %}
 						<li>
@@ -22,8 +14,19 @@
 						</li>
 						{% endfor %}
 					</ul>
-				</div> -->
+				</div>
+			</div> -->
+
+			{% for contact in site.contact %}
+			<div class="row">
+				<div class="col-lg-6">
+					<h4>{{ contact.title }}</h4>
+				</div>
+				<div class="col-lg-6">
+					<h6>{{ contact.content }}</h6>
+				</div>
 			</div>
+			{% endfor %}
 
 		</div>
 		<!-- /.container -->
