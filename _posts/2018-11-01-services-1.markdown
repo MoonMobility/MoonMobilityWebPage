@@ -1,0 +1,8 @@
+---
+layout: default
+img: Frame_MM_1C.png
+category: Services
+title: Услуги в сфере 1С
+description: |
+---
+  Учет 1С. Разработка 1С проектов. Автоматизация во Владивостоке
