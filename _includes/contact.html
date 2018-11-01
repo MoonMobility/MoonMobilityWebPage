@@ -18,12 +18,14 @@
 			</div> -->
 
 			<div class="col-lg-6">
-				<dl class="dl-horizontal">
+				<ul class="contact">
 					{% for contact in site.contact %}
-					  <dt><h2>{{ contact.title }}</h2></dt>
-					  <dd><h3>{{ contact.content }}</h3></dd>
+					  <li>
+							<h3>{{ contact.title }}</h3>
+							<p>{{ contact.content }}</p>
+						</li>
 					{% endfor %}
-				</dl>				
+				</dl>
 			</div>
 
 		</div>
