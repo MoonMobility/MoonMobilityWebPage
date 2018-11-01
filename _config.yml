@@ -34,5 +34,9 @@ social:
     url:
 
 contact:
-  - title: Address
-    content:
+  - title: Адрес
+    content: город Владивосток, улица Амурская, дом 19
+  - title: Телефон
+    content: +7 902 074-70-00
+  - title: Почта
+    content: MobilityMoon@gmail.com
