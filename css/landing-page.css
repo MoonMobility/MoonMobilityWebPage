@@ -25,9 +25,11 @@ h6 {
   margin-left:10px;
 }
 
-.navbar-brand img {
+.navbar-brand-logo {
+  float: left;
   height: 50px;
-  padding: 0px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .lead {
