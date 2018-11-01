@@ -17,15 +17,12 @@
 				</div>
 			</div> -->
 
-			<div class="col-lg-6">
-				<ul class="contact">
-					{% for contact in site.contact %}
-					  <li>
-							<h3>{{ contact.title }}</h3>
-							<p>{{ contact.content }}</p>
-						</li>
-					{% endfor %}
-				</dl>
+			<div class="col-lg-12">
+					<ul class="list-unstyled">
+						{% for contact in site.contact %}
+						  <li>{{ contact.content}}</li>
+						{% endfor %}
+					</ul>
 			</div>
 
 		</div>
