@@ -21,6 +21,15 @@ h6 {
     font-weight: 700;
 }
 
+.name-holder{
+  margin-left:10px;
+}
+
+.navbar-brand img {
+  height: 50px;
+  padding: 0px;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
