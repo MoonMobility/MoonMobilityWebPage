@@ -17,16 +17,14 @@
 				</div>
 			</div> -->
 
-			{% for contact in site.contact %}
-			<div class="row">
-				<div class="col-lg-6">
-					<h2>{{ contact.title }}</h2>
-				</div>
-				<div class="col-lg-6">
-					<h3>{{ contact.content }}</h3>
-				</div>
+			<div class="col-lg-6">
+				<dl class="dl-horizontal">
+					{% for contact in site.contact %}
+					  <dt><h2>{{ contact.title }}</h2></dt>
+					  <dd><h3>{{ contact.content }}</h3></dd>
+					{% endfor %}
+				</dl>				
 			</div>
-			{% endfor %}
 
 		</div>
 		<!-- /.container -->
