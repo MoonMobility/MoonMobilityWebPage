@@ -6,6 +6,7 @@ url: http://moonmobi.ru
 logo_location: ../img/nav_bar_logo.png
 title: Луна сервис
 email: MobilityMoon@gmail.com
+main_contact: '+7 (902) 074-70-00'
 author: Novikov Denis
 description: > # "Write an awesome description for your new site here.
   You can edit this line in _config.yml. It will appear in your document
@@ -35,7 +36,7 @@ social:
 
 contact:
   - title: 'Телефон:'
-    content: '<h1>+7 902 074-70-00</h1>'
+    content: '<h1>+7 (902) 074-70-00</h1>'
   - title: 'Почта:'
     content: '<div class="banner-message-wrap"><h2>MobilityMoon@gmail.com</h2></div>'
   - title: 'Адрес:'
