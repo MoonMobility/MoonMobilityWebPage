@@ -128,21 +128,10 @@ h6 {
     background-size: cover;
 }
 
-.banner > h1 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
-}
-
 .banner > h2 {
     margin: 0;
-    word-wrap: break-word;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
-}
-
-.banner > h3 {
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 .banner ul {
@@ -168,10 +157,6 @@ h6 {
         font-size: 3em;
     }
 
-    .banner > h1 {
-        font-size: 3em;
-    }
-
     ul.banner-social-buttons > li {
         display: block;
         margin-bottom: 20px;
@@ -181,6 +166,37 @@ h6 {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+}
+
+.banner-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.banner-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.banner-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.banner-message > h2 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.banner-message-wrap > h2 {
+    word-wrap: break-word;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.banner-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 footer {
