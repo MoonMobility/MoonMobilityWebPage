@@ -202,6 +202,12 @@ h6 {
     align-items: center;
 }
 
+@media (max-width: 767px) {
+    .row.vertical-align {
+        display: block; /* Turn off the flexible box layout */
+    }
+}
+
 footer {
     padding: 50px 0;
     background-color: #f8f8f8;
