@@ -128,15 +128,15 @@ h6 {
     background-size: cover;
 }
 
-.banner h1 {
+.banner > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
 }
 
-.banner h2 {
+.banner > h2 {
     margin: 0;
-    white-space: pre-line;
+    word-wrap: break-word;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
 }
