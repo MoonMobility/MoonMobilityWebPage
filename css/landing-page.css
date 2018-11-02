@@ -202,7 +202,7 @@ h6 {
     align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
     .row.vertical-align {
         display: block; /* Turn off the flexible box layout */
     }
