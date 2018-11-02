@@ -114,10 +114,16 @@ h6 {
     margin-bottom: 30px;
 }
 
-.section-heading-spacer {
+.section-heading-spacer-a {
     float: left;
     width: 200px;
     border-top: 3px solid #F2C94C;
+}
+
+.section-heading-spacer-b {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #56CCF2;
 }
 
 .banner {
