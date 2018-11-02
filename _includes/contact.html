@@ -18,11 +18,14 @@
 			</div> -->
 
 			<div class="col-lg-12">
-					<ul class="list-unstyled">
+					<!-- <ul class="list-unstyled">
 						{% for contact in site.contact %}
 						  <li>{{contact.content}}<p></p></li>
 						{% endfor %}
-					</ul>
+					</ul> -->
+					{% for contact in site.contact %}
+						{{contact.content}}<p></p>
+					{% endfor %}
 			</div>
 
 		</div>
