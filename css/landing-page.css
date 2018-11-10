@@ -127,12 +127,12 @@ h6 {
 }
 
 .carousel {
-    background-color: #f8f8f8;
     padding-top: 50px;
     padding-bottom: 50px;
  }
 
 .col-centered {
+    background-color: #f8f8f8;
     float: none;
     margin: 0 auto;
 }
