@@ -127,8 +127,8 @@ h6 {
 }
 
 .carousel {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
  }
 
 .col-centered {
@@ -148,7 +148,7 @@ h6 {
     opacity: 1;
 }
 .carousel-control > a > span {
-    color: #777;
+    color: #555;
 	  font-size: 29px !important;
 }
 
