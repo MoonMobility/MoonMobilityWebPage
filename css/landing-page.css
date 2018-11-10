@@ -149,7 +149,7 @@ h6 {
     opacity: 1;
 }
 .carousel-control > a > span {
-    color: #777;
+    color: #aaa;
 	  font-size: 29px !important;
 }
 
@@ -171,6 +171,7 @@ h6 {
 	.carousel-inner .prev		     { left: -50%; }
   .carousel-col                { width: 50%; }
 	.active > div:first-child + div { display:block; }
+  .glyphicon {line-height: 0}
 }
 
 /*sm*/
