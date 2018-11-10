@@ -52,3 +52,7 @@ clients:
     img: icon_sad_i_semena.png
   - title: Диалог групп
     img: icon_dialog_group.png
+  - title: Сад и Семена
+    img: icon_sad_i_semena.png
+  - title: Диалог групп
+    img: icon_dialog_group.png    
