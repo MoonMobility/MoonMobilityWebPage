@@ -1,0 +1,8 @@
+---
+layout: default
+img: icon_dialog_group.png
+category: Clients
+title: Диалог групп
+description: |
+---
+    Диалог групп
