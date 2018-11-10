@@ -61,7 +61,7 @@
           <div class="carousel-inner">
 
             {% for client in site.clients reversed %}
-            {% if thecycle == 'odd' %}
+            {% if forloop.first %}
             <div class="item active">
               <div class="carousel-col">
                 <div class="block img-responsive">
