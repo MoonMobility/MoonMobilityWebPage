@@ -1,6 +1,6 @@
 ---
 layout: default
-img: rawpixel-589076-unsplash.jpg
+img: Frame_MM_MOBILE.png
 category: Services
 title: Мобильное приложение под Android и iOS
 description: |
