@@ -14,10 +14,12 @@
           <hr class="section-heading-spacer-a">
           <div class="clearfix"></div>
           <h2 class="section-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <p>
-            {{ post.description | remove: '<p>' | remove: '</p>'}}
-            <a href="{{ post.url }}"> Подробнее ...</a>
-          </p>
+          <div class="lead text-justify">
+            <p>
+              {{ post.description | remove: '<p>' | remove: '</p>'}}
+              <a href="{{ post.url }}"> Подробнее ...</a>
+            </p>
+          </div>
         </div>
         <div class="col-lg-6 col-lg-offset-2 col-sm-6">
           <img class="img-responsive" src="/img/mobile_blog/{{ post.img }}" alt="{{ post.title }}"/>
@@ -40,10 +42,12 @@
           <hr class="section-heading-spacer-b">
           <div class="clearfix"></div>
           <h2 class="section-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <p>
-            {{ post.description | remove: '<p>' | remove: '</p>'}}
-            <a href="{{ post.url }}"> Подробнее ...</a>
-          </p>
+          <div class="lead text-justify">
+            <p>
+              {{ post.description | remove: '<p>' | remove: '</p>'}}
+              <a href="{{ post.url }}"> Подробнее ...</a>
+            </p>
+          </div>
         </div>
         <div class="col-lg-6 col-sm-pull-6 col-sm-6">
           <img class="img-responsive" src="/img/mobile_blog/{{ post.img }}" alt="{{ post.title }}"/>
