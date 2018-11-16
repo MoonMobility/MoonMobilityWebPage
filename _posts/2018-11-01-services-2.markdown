@@ -1,7 +1,7 @@
 ---
 layout: default
 img: Frame_MM_MOBILE.png
-category: Services
+category: services
 title: Мобильное приложение под Android и iOS
 description: |
 ---
