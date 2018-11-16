@@ -145,8 +145,8 @@ h6 {
 }
 .carousel-control.left,
 .carousel-control.right {
-    margin-right: 40px;
-    margin-left: 32px;
+    margin-right: 0px;
+    margin-left: 0px;
     background-image: none;
     opacity: 1;
 }
