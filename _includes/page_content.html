@@ -36,11 +36,11 @@
         <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
           <hr class="section-heading-spacer-b">
           <div class="clearfix"></div>
-          <h2 class="section-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <h2 class="section-heading"><a href="{{ post.detail_page_url }}">{{ post.title }}</a></h2>
           <div class="lead text-justify">
             <p>
               {{ post.content | remove: '<p>' | remove: '</p>'}}
-              <a href="{{ post.url }}"> Узнать больше ...</a>
+              <a href="{{ post.detail_page_url }}"> Узнать больше ...</a>
             </p>
           </div>
         </div>
