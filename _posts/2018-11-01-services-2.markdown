@@ -3,7 +3,7 @@ layout: default
 img: Frame_MM_MOBILE.png
 category: services
 title: Мобильное приложение под Android и iOS
-permalink: /mobile-blog/
+detail_page_url: "/mobile-blog/"
 description: |
 ---
   Компания &quot;Луна сервис&quot; разработает для вас мобильное приложение под Android и iOS. Разрабатываем сразу на две платформы и на цену это не влияет. Наши решения кросс-платформенные и полностью нативные, в которых доступны все функции смартфона.
