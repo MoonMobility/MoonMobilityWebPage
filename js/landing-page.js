@@ -75,10 +75,11 @@ function normalizeBrightness(coeff=1.25, callback=null) {
 				linear-gradient(rgba(0,0,0,${darkOverlayOpacity}),
 				rgba(0,0,0,${darkOverlayOpacity})),
 				url(${imageUrl})
+        no-repeat center center
 				`
       div.style.backgroundSize =  `
         cover;
-        `  
+        `
 
       /* In case you want to do something else with that div, while you're at it*/
 			callback(div)
