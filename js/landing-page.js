@@ -50,7 +50,7 @@ $('.carousel[data-type="multi"] .item').each(function() {
 
 function normalizeBrightness(coeff=1.25, callback=null) {
 
-	document.querySelectorAll('.intro-header').forEach(function(div) {
+	document.querySelectorAll('[data-background-image]').forEach(function(div) {
 
 		/* Get the div's image background url and apply to the style */
 		var imageUrl = div.dataset.backgroundImage
