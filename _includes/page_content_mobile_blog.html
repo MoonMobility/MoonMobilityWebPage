@@ -2,7 +2,7 @@
 
 <section id="mobile_blog">
   {% for post in site.posts reversed %}
-  {% if post.categories contains "Mobile_blog" %}
+  {% if post.categories contains "mobile_blog" %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   {% if thecycle == 'odd' %}
   <div class="content-section-a">
@@ -17,7 +17,7 @@
           <div class="lead text-justify">{{ post.description }}</div>
         </div>
         <div class="col-lg-6 col-lg-offset-2 col-sm-6">
-          <img class="img-responsive" src="img/services/{{ post.img }}" alt="{{ post.title }}"/>
+          <img class="img-responsive" src="/img/mobile_blog/{{ post.img }}" alt="{{ post.title }}"/>
         </div>
       </div>
 
@@ -40,7 +40,7 @@
           <div class="lead text-justify">{{ post.description }}</div>
         </div>
         <div class="col-lg-6 col-sm-pull-6 col-sm-6">
-          <img class="img-responsive" src="img/services/{{ post.img }}" alt="{{ post.title }}"/>
+          <img class="img-responsive" src="/img/mobile_blog/{{ post.img }}" alt="{{ post.title }}"/>
         </div>
       </div>
 
