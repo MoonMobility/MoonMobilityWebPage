@@ -241,6 +241,10 @@ h6 {
     margin-bottom: 0;
 }
 
+.banner > a {
+    color: #f8f8f8;
+}
+
 .banner-social-buttons {
     float: right;
     margin-top: 0;
