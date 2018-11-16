@@ -1,7 +1,7 @@
 ---
 layout: default
 img: Frame_MM_1C.png
-category: Services
+category: services
 title: Услуги в сфере 1С
 description: |
 ---
