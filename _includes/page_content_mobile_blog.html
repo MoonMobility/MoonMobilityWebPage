@@ -1,6 +1,6 @@
 <!-- Page Content -->
 
-<section id="mobile_blog">
+<section id="blog">
   {% for post in site.posts reversed %}
   {% if post.categories contains "mobile_blog" %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
