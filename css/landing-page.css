@@ -312,7 +312,7 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-[data-background-image] {  }
+[data-background-image] { background-size: cover; }
 
 [data-background-image] .dark-overlay {
 
