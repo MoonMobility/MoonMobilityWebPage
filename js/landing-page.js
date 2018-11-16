@@ -48,7 +48,7 @@ $('.carousel[data-type="multi"] .item').each(function() {
 	}
 });
 
-function normalizeBrightness(coeff=1.25, callback=null) {
+function normalizeBrightness(coeff=1.25) {
 
   document.querySelectorAll('[data-background-image]').forEach(function(div) {
 
@@ -76,8 +76,7 @@ function normalizeBrightness(coeff=1.25, callback=null) {
   				rgba(0,0,0,${darkOverlayOpacity})),
   				url(${imageUrl}) no-repeat center center
   				`
-  			/* In case you want to do something else with that div, while you're at it*/
-  			callback(div)
+        div.style.backgroundSize =  `cover`  
 
   		}
   	})
