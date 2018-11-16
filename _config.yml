@@ -41,11 +41,11 @@ social:
 
 contact:
   - title: 'Телефон:'
-    content: '<h1>+7 (902) 074-70-00</h1>'
+    content: '<h1><a href="tel:+79020747000">+7 (902) 074-70-00</a></h1>'
   - title: 'Почта:'
-    content: '<div class="banner-message-wrap"><h2>MobilityMoon@gmail.com</h2></div>'
+    content: '<div class="banner-message-wrap"><h2><a href="mail:MobilityMoon@gmail.com">MobilityMoon@gmail.com</a></h2></div>'
   - title: 'Адрес:'
-    content: '<h3>город Владивосток, улица Амурская, дом 19</h3>'
+    content: '<h3><a href="https://yandex.ru/maps/-/CBFiF-B6kC">Владивосток, улица Амурская, дом 19</a></h3>'
 
 clients:
   - title: АЮСС–ВСТК
