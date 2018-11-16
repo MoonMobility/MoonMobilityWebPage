@@ -41,7 +41,7 @@ social:
 
 contact:
   - title: 'Телефон:'
-    content: '<h1><a href="tel:+79020747000">+7 (902) 074-70-00</a></h1>'
+    content: '<h1><a href="https://api.whatsapp.com/send?phone=+79020747000">+7 (902) 074-70-00</a></h1>'
   - title: 'Почта:'
     content: '<div class="banner-message-wrap"><h2><a href="mailto:MobilityMoon@gmail.com">MobilityMoon@gmail.com</a></h2></div>'
   - title: 'Адрес:'
