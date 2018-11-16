@@ -119,13 +119,13 @@ h6 {
 
 .section-heading-spacer-a {
     float: left;
-    width: 200px;
+    width: 100%;
     border-top: 3px solid #F2C94C;
 }
 
 .section-heading-spacer-b {
     float: left;
-    width: 200px;
+    width: 100%;
     border-top: 3px solid #56CCF2;
 }
 
