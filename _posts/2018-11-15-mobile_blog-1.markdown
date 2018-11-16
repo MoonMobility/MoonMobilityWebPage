@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog_post
 img: rawpixel-579263-unsplash.jpg
 category: mobile_blog
 title: Преимущества мобильного приложения - почему вы должны инвестировать
