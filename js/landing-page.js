@@ -50,42 +50,38 @@ $('.carousel[data-type="multi"] .item').each(function() {
 
 function normalizeBrightness(coeff=1.25, callback=null) {
 
-	document.querySelectorAll('[data-background-image]').forEach(function(div) {
+  document.querySelectorAll('[data-background-image]').forEach(function(div) {
 
-		/* Get the div's image background url and apply to the style */
-		var imageUrl = div.dataset.backgroundImage
-		div.style.background = "url('" + imageUrl + "')"
+  		/* Get the div's image background url and apply to the style */
+  		var imageUrl = div.dataset.backgroundImage
+  		div.style.background = "url('" + imageUrl + "')"
 
-		/* Prepare a dom image for canvas manipulation*/
-		var background = new Image()
-		background.src = imageUrl
+  		/* Prepare a dom image for canvas manipulation*/
+  		var background = new Image()
+  		background.src = imageUrl
 
-		/* When the dom image loads, proceed with the calculations */
-		background.onload = function() {
+  		/* When the dom image loads, proceed with the calculations */
+  		background.onload = function() {
 
-			var brightness = getBrightness(background)
-			div.dataset.brightness = brightness
+  			var brightness = getBrightness(background)
+  			div.dataset.brightness = brightness
 
-			/* The more opaque the overlay, the darker the image.
-			A coefficient of 1 will equate the overlay's opacity with the image's brightness.
-			A higher coefficient will leave more room for differences between the images, but
-			will avoid darkening your images too much. */
-			var darkOverlayOpacity = brightness / coeff
-			div.style.background =  `
-				linear-gradient(rgba(0,0,0,${darkOverlayOpacity}),
-				rgba(0,0,0,${darkOverlayOpacity})),
-				url(${imageUrl})
-        no-repeat center center
-				`
-      div.style.backgroundSize =  `
-        cover;
-        `
+  			/* The more opaque the overlay, the darker the image.
+  			A coefficient of 1 will equate the overlay's opacity with the image's brightness.
+  			A higher coefficient will leave more room for differences between the images, but
+  			will avoid darkening your images too much. */
+  			var darkOverlayOpacity = brightness / coeff
+  			div.style.background =  `
+  				linear-gradient(rgba(0,0,0,${darkOverlayOpacity}),
+  				rgba(0,0,0,${darkOverlayOpacity})),
+  				url(${imageUrl}) no-repeat center center
+  				`
+  			/* In case you want to do something else with that div, while you're at it*/
+  			callback(div)
 
-      /* In case you want to do something else with that div, while you're at it*/
-			callback(div)
+  		}
+  	})
 
-		}
-	})
 }
 
 
