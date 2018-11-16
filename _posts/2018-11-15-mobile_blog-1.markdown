@@ -1,6 +1,7 @@
 ---
 layout: blog_post
 img: rawpixel-579263-unsplash.jpg
+img_thumb: rawpixel-579263-unsplash-thumb.jpg
 category: mobile_blog
 all_posts_url: "/mobile-blog/"
 title: Преимущества мобильного приложения - почему вы должны инвестировать
