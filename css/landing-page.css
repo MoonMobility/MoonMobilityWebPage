@@ -162,6 +162,12 @@ h6 {
     float: left;
  }
 
+ .carousel-col-empty {
+     position: relative;
+     min-height: 1px;
+     padding: 5px;
+     float: left;
+  }
  .active > div { display:none; }
  .active > div:first-child { display:block; }
 
@@ -172,6 +178,7 @@ h6 {
 	.carousel-inner .next        { left:  50%; }
 	.carousel-inner .prev		     { left: -50%; }
   .carousel-col                { width: 50%; }
+  .carousel-col-empty          { width: 20%; }
 	.active > div:first-child + div { display:block; }
   .glyphicon {line-height: 0}
 }
@@ -183,6 +190,7 @@ h6 {
 	.carousel-inner .next        { left:  50%; }
 	.carousel-inner .prev		     { left: -50%; }
   .carousel-col                { width: 50%; }
+  .carousel-col-empty          { width: 20%; }
 	.active > div:first-child + div { display:block; }
 }
 
@@ -193,6 +201,7 @@ h6 {
 	.carousel-inner .next        { left:  33%; }
 	.carousel-inner .prev		     { left: -33%; }
   .carousel-col                { width: 33%; }
+  .carousel-col-empty          { width: 15%; }
 	.active > div:first-child + div { display:block; }
   .active > div:first-child + div + div { display:block; }
 }
@@ -204,6 +213,7 @@ h6 {
 	.carousel-inner .next        { left:  25%; }
 	.carousel-inner .prev		     { left: -25%; }
   .carousel-col                { width: 25%; }
+  .carousel-col-empty          { width: 10%; }
 	.active > div:first-child + div { display:block; }
   .active > div:first-child + div + div { display:block; }
 	.active > div:first-child + div + div + div { display:block; }
@@ -226,7 +236,7 @@ h6 {
 }
 
 .empty-block {
-	width: 40px;
+	width: 100%;
   height: 320px;
 }
 
