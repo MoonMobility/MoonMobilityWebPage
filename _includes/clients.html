@@ -18,6 +18,8 @@
                   <div class="block img-responsive">
                     <img class="img-responsive" src="/img/clients/{{ client.img }}" alt="{{ client.title }}"/>
                   </div>
+                    <div class="empty-block img-responsive">
+                    </div>
                 </div>
               </div>
               {% else %}
@@ -26,15 +28,17 @@
                   <div class="block img-responsive">
                     <img class="img-responsive" src="/img/clients/{{ client.img }}" alt="{{ client.title }}"/>
                   </div>
+                    <div class="empty-block img-responsive">
+                    </div>
                 </div>
               </div>
               {% endif %}
-              <div class="item">
+              <!-- <div class="item">
                 <div class="carousel-col-empty">
                   <div class="empty-block img-responsive">
                   </div>
                 </div>
-              </div>
+              </div> -->
               {% endfor %}
 
             </div>

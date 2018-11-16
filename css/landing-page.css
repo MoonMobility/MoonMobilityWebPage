@@ -180,7 +180,6 @@ h6 {
   .carousel-col                { width: 50%; }
   .carousel-col-empty          { width: 20%; }
 	.active > div:first-child + div { display:block; }
-	.active > div:first-child + div + div { display:block; }
   .glyphicon {line-height: 0}
 }
 
@@ -193,7 +192,6 @@ h6 {
   .carousel-col                { width: 50%; }
   .carousel-col-empty          { width: 20%; }
 	.active > div:first-child + div { display:block; }
-	.active > div:first-child + div + div { display:block; }
 }
 
 /*md*/
@@ -206,8 +204,6 @@ h6 {
   .carousel-col-empty          { width: 15%; }
 	.active > div:first-child + div { display:block; }
   .active > div:first-child + div + div { display:block; }
-  .active > div:first-child + div + div + div { display:block; }
-  .active > div:first-child + div + div + div + div { display:block; }
 }
 
 /*lg*/
@@ -221,9 +217,6 @@ h6 {
 	.active > div:first-child + div { display:block; }
   .active > div:first-child + div + div { display:block; }
 	.active > div:first-child + div + div + div { display:block; }
-  .active > div:first-child + div + div + div + div { display:block; }
-  .active > div:first-child + div + div + div + div + div + div { display:block; }
-  .active > div:first-child + div + div + div + div + div + div + div { display:block; }
 }
 
 .block {
