@@ -107,11 +107,11 @@ h6 {
     background-color: #f8f8f8;
 }
 
-.content-section-a > a {
+.content-section-a  a {
   color: #777;
 }
-.content-section-a > a:hover,
-.content-section-a > a:focus {
+.content-section-a a:hover,
+.content-section-a a:focus {
   color: #333;
   background-color: transparent;
 }
@@ -122,11 +122,11 @@ h6 {
     border-bottom: 1px solid #e7e7e7;
 }
 
-.content-section-b > a {
+.content-section-b  a {
   color: #777;
 }
-.content-section-b > a:hover,
-.content-section-b > a:focus {
+.content-section-b a:hover,
+.content-section-b a:focus {
   color: #333;
   background-color: transparent;
 }
