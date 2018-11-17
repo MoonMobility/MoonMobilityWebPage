@@ -49,6 +49,10 @@ h6 {
     color: #f8f8f8;
 }
 
+.intro-header a {
+    color: #f8f8f8;
+}
+
 .intro-message {
     position: relative;
     padding-top: 15%;
