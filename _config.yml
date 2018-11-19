@@ -60,3 +60,5 @@ clients:
     img: icon_sad_i_semena.png
   - title: ОДА
     img: odalife.png
+  - title: isota25
+    img: isota25.svg
