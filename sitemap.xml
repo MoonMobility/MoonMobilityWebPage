@@ -1,15 +1,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>http://moonmobi.ru/</loc>
+    <loc>https://moonmobi.ru/</loc>
     <lastmod>2018-11-17T08:48:23+00:00</lastmod>
   </url>
   <url>
-    <loc>http://moonmobi.ru/mobile-blog/</loc>
+    <loc>https://moonmobi.ru/mobile-blog/</loc>
     <lastmod>2018-11-16T08:48:23+00:00</lastmod>
   </url>
   <url>
     <loc>
-      http://moonmobi.ru/mobile_blog/2018/11/15/mobile_blog-1/
+      https://moonmobi.ru/mobile_blog/2018/11/15/mobile_blog-1/
     </loc>
     <lastmod>2018-11-16T08:48:23+00:00</lastmod>
   </url>

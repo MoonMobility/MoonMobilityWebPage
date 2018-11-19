@@ -3,4 +3,4 @@ Disallow: /_includes
 Disallow: /_layouts
 Disallow: /_posts
 Allow: /
-sitemap: http://moonmobi.ru/sitemap.xml
+sitemap: https://moonmobi.ru/sitemap.xml
