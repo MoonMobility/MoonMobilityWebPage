@@ -51,13 +51,13 @@ clients:
   - title: АЮСС–ВСТК
     img: auss-vstk.png
   - title: Диалог групп
-    img: icon_dialog_group.png
+    img: dialog-group.png
   - title: Apple market
     img: applemarket-vl.svg
   - title: Бонжур ДВ
     img: bonjour-dv.png
   - title: Сад и Семена
-    img: icon_sad_i_semena.png
+    img: sad-i-semena.png
   - title: ОДА
     img: odalife.png
   - title: isota25
