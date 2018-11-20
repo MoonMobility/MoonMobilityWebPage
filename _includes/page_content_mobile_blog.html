@@ -2,7 +2,7 @@
 
 <section id="blog">
   {% for post in site.posts reversed %}
-  {% if post.categories contains "mobile_blog" %}
+  {% if post.categories contains "mobile-blog" %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   {% if thecycle == 'odd' %}
   <div class="content-section-a">
