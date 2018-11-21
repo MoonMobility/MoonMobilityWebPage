@@ -1,6 +1,6 @@
 ---
 layout: default
-img: Frame_MM_MOBILE.png
+img: Frame_MM_MOBILE.jpg
 category: services
 title: Мобильное приложение под Android и iOS
 detail_page_url: "/mobile-blog/"
