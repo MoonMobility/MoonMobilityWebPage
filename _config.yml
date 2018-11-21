@@ -27,6 +27,9 @@ copyright: 'Copyright &copy; 2018 ООО Мун Мобилити. All Rights Res
 markdown: kramdown
 permalink: pretty
 
+plugins:
+  - jekyll-sitemap
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
